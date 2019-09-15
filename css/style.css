@@ -1,0 +1,311 @@
+/* Gerais */
+
+img {
+    display: block;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.subtitulo:before, .subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #5BBC3E;
+    margin: 10px auto;
+}
+
+.revenda_produtos li img{
+    margin: 30px 0;
+}
+
+.revenda_produtos li h3 {
+    font-family: Arial;
+    font-size: 18px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.revenda_produtos li p {
+    font-family: Georgia;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.revenda_produtos li h4 {
+    font-family: Arial;
+    font-size: 24px;
+    letter-spacing: .1em;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 18px 38px;
+    border: 3px solid #FEC63E;
+    color: #fff;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.call:before {
+    content: "";
+    display: block;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: #5BBC3E;
+    margin: 0 auto 30px auto;
+}
+
+.call {
+    clear: both;
+}
+
+.call p{
+    font-family: Georgia;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+/* Cabeçalho */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 15px 0;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 147px;
+}
+
+.header_menu ul li a {
+    color: #006AA8;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Introdução */
+
+.introducao {
+    width: 100%;
+    height: 600px;
+    margin-top: 178px; /* aplica uma margem para ajustar devido a posição do header estar fixa */
+    background: url(../img/introducao_fundo.svg) no-repeat center;
+    background-size: cover;
+    text-align: left;
+}
+
+.introducao h1 {
+    font-family: Arial;
+    font-size: 48px;
+    color: #006AA8;
+    letter-spacing: .1em;
+    line-height: 50px;
+    width: 500px;
+    font-weight: bold;
+    margin: 150px 0 40px 0;
+}
+
+.introducao p {
+    font-family: Georgia;
+    font-size: 24px;
+    color: #006AA8;
+    letter-spacing: .1em;
+    line-height: 25px;
+    width: 500px;
+}
+
+/* Revenda */
+
+.revenda {
+    width: 100%;
+    height: 790px;
+    background-color: #006AA8;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Conserto */
+
+.servicos {
+    width: 100%;
+    height: 920px;
+    background: url(../img/servicos_fundo.svg) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+    text-align: center;
+    color: #006AA8;
+}
+
+.servicos .conserto_celular{
+    height: 285px;
+    width: 960px;
+    margin: 30px 0 20px 0;
+}
+
+.servicos .conserto_notebook{
+    height: 285px;
+    width: 960px;
+    margin-bottom: 50px;
+}
+
+.servicos h3 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 50px 0 25px 0;
+}
+
+.servicos ul li {
+    font-size: 14px;
+    text-align: left;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.servicos .call a {
+    color: #006AA8;
+}
+
+/* Acessorios */
+
+.acessorios {
+    width: 100%;
+    height: 790px;
+    background-color: #006AA8;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Quote */
+
+.quote {
+    width: 100%;
+    height: 220px;
+    background: url(../img/bg-footer-home.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 59px;
+}
+
+.quote-externo p{
+    font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after{ /* cria as linhas antes e depois do p */
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 15px auto;
+}
+
+.quote-externo cite{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em; /* aplica um espaçamento entre as letras de uma palavra */
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 210px;
+    background-color: #006AA8;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-top: 15px;
+    text-align: center;
+    text-align: left;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 15px auto;
+    background: #5BBC3E;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.footer_historia {
+    padding-right: 60px;
+}
+
+.footer_contato ul li {
+    font-family: Georgia, "Timer New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+}
+
+.footer_redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+    border: 3px solid #fff;
+}
+
+.footer_redes ul li {
+    margin-right: 18px;
+}
+
+.footer_redes ul li:last-child {
+    margin-right: 0px;
+}
+
+.copy {
+    background-color: #fff;
+    height: 60px;
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    padding: 21px 0;
+}
